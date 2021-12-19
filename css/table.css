@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+th{
+	color: whitesmoke;
+	background-color: rgb(51, 45, 45);
+}
+td{
+	text-align: center;
+}
+button{
+	padding: 10px 20px;
+    transition: 1s;
+    border-radius: 8px;
+}
+button:hover{
+	background-color: rgb(51,43,43);
+	color: white;
+  }
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
